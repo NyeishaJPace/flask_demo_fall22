@@ -14,9 +14,8 @@ def hello():
 def addTodo():
     todoItem = request.form['text1']
     todoList.append(todoItem)
-    return render_template('home.html', todoList=todoList)
+    return render_template('home.html', todoList=todoList)      #access body information
 
-                    #access body information
 
 
 if __name__ == "__main__":

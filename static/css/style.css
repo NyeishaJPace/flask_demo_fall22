@@ -1,0 +1,14 @@
+body {
+    background: #888585;
+}
+
+
+h1 {
+    color: black;
+    font-size: 60px;
+}
+
+.form-group {
+    width: 200px;
+
+}
